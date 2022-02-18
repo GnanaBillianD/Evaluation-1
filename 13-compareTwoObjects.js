@@ -1,3 +1,4 @@
+"use strict";
 function objcmp(a, b) {
 
     //copy properties into A and B

@@ -1,3 +1,4 @@
+"use strict";
 let a = [{id: 1, name: "Stephen covey" }, {id: 2, name: "Stephen covey"}, {id: 3, name:"Tolstoy"},{id:3,name: "Tolstoy"}, {id: 5, name: "James clear"}];
 let b=[];
 

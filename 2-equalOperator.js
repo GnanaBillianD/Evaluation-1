@@ -1,3 +1,4 @@
+"use strict"
 c = 1234;//number
 d = '1234';//numeric number
 

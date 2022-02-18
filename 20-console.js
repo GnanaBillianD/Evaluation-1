@@ -1,11 +1,11 @@
-a=[1,2,3,3,4,5,5];
+"use strict";
+let a=[1,2,3,3,4,5,5];
 console.log(a)
 
 console.group();
 console.table(a)
 
 
-console.dir(a)
 
 console.groupEnd();
 

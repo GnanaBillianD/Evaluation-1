@@ -1,3 +1,4 @@
+"use strict";
 let n= 5;
 let s= "";
 let count =1

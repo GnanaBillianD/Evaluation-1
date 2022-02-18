@@ -1,3 +1,4 @@
+"use strict";
 a=[1,2,3,4,5];
 
 let foreach = a.forEach((num,index)=> {return a[index] = num * 2});//return undefined, at the same time Returns original array with transformed elements

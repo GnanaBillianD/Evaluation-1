@@ -1,3 +1,4 @@
+"use strict"
 let people = [{id: 1, name: "edison" }, {id: 2, name: "Annand" }, {id: 3, name: "Vasnath"},  {id: 3, name: "benni"}, {id: 1, name: "karthi" }]
 
 
