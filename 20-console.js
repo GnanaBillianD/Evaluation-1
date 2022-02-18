@@ -26,5 +26,9 @@ for (let i = 1; i <= a.length; i++) {
 
 
 
-console.log(    )
+
+
+let x = 5;
+let y = 2;
+console.assert(x + y ==8, "expression returned 'false'");
 
