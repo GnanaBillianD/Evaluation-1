@@ -1,8 +1,8 @@
-#Evaluation-1
+# Evaluation-1
 
-###1: Prime number:
+### 1: Prime number:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Start a program with function with argument.
 
@@ -12,7 +12,7 @@ step 3: Check the remainder value for given number using module function.
 
 step 4: If the remainder value is zero, it will print the number is not a prime,otherwise, it will  print the number is prime.
 
-####Psudocode:
+#### Psudocode:
 ```
 FUNCTION PrimeNumber(a) {
     FOR (SET i = 2; i < a; i++) {
@@ -33,9 +33,9 @@ PrimeNumber(121)
 PrimeNumber(111)
 ```
 
-###2: Eqaual and Strict Eaual
+### 2: Eqaual and Strict Eaual
 
-####Algorithm:
+#### Algorithm:
 
 step 1: First declare two variabes.
 
@@ -45,7 +45,7 @@ stpe 3: Check the two variable with equality operator
 
 stpe 4: Check the two variable with strict equality operator.
 
-####Psudocode:
+#### Psudocode:
 ```
 SET c = 1234
 SET d = '1234'
@@ -53,9 +53,9 @@ PRINT (c==d)
 PRINT (c===d)
 ```
 
-###3: String Reverse
+### 3: String Reverse
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Firt declare a variable with string value and create a empty string variable.
 
@@ -63,7 +63,7 @@ step 2: Find the variable length
 
 step 3: Then save the index value backward, from last index to first index to the empty variable.
 
-####Psudocode:
+#### Psudocode:
 ```
 SET a = "abcdefghijklmn"
 SET reverse = ""
@@ -75,9 +75,9 @@ FOR (SET i = 1; i <= a.length; i++) {
 PRINT(reverse)
 ```
 
-###4:Word Reverse:
+### 4:Word Reverse:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Firt declare a variable with string value and create a empty string variable.
 
@@ -93,7 +93,7 @@ step 6: This again reverse value one by one concatenate and store in empting str
 
 step 7: And finally, store string's in reverse. 
 
-####Psudocode:
+#### Psudocode:
 ```
 SET a = " hi i am billian"
 SET b = ""
@@ -116,9 +116,9 @@ FOR (SET i = 1; i <=a.length; i++) {
 PRINT(f)
 ```
 
-###5: Palindrome:
+### 5: Palindrome:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Declare a variable with value racecar
 
@@ -128,7 +128,7 @@ step 3: Then compare the reverse string value and define variable value.
 
 steo 4: If the condtion was true, print the define variable value is a palindrome, otherwise print it's not a palindrome
 
-####Psudocode:
+#### Psudocode:
 ```
 SET a = "racecar"
 SET reverse1 = ""
@@ -145,11 +145,11 @@ ELSE
     PRINT(a + " is not a palindrome")
 ```
 
-###6: Array.forEach() vs Array.map():
+### 6: Array.forEach() vs Array.map():
 
-####Array.forEach():
+#### Array.forEach():
 
-#####Algorithm:
+##### Algorithm:
 
 step 1: Declare a variable with set of array value.
 
@@ -159,7 +159,7 @@ step 3: The forEach method doesn’t return anything.
 
 step 4: And it will be store the transformed value in original variable.
 
-#####Psudocode:
+##### Psudocode:
 ```
 SET a= [1,2,3,4,5]
 
@@ -167,9 +167,9 @@ SET foreach = a.forEach((num,index)=> {return a[index] = num * 2})
 PRINT (a)
 ```
 
-####Array.map():
+#### Array.map():
 
-#####Algorithm:
+##### Algorithm:
 
 step 1: Declare a variable with set of array value.
 
@@ -177,7 +177,7 @@ step 2: Here transformed the array value by map() method.
 
 step 3: It returns a transformed array value in  new array by applying the callback function on each element of an array.
 
-#####Psudocode:
+##### Psudocode:
 ```
 SET b=[6,7,8,9]
 SET map = b.map(num=>  num * 2)
@@ -185,9 +185,9 @@ PRINT (map)
 PRINT(b)
 ```
 
-###7: Generate a random number:
+### 7: Generate a random number:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Create a function, and pass the value 1 and 10 by function argument.
 
@@ -197,7 +197,7 @@ step 3: call the function and pass the two argument to that function.
 
 step 4: Finally, print the random number between 1 to 10. 
 
-####psudocode:
+#### psudocode:
 ```
 FUNCTION random(a,b){
     SET c = Math.floor(Math.random() * (b-a) + a)
@@ -206,9 +206,9 @@ FUNCTION random(a,b){
 random(1,10)
 ```
 
-###8: Remove duplicate from Array:
+### 8: Remove duplicate from Array:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Declare a array with some dupllicate integer value.
 
@@ -216,7 +216,7 @@ step 2: create a empty array variable name b.
 
 step 3: Finaly check the duplicate array value, if the value is not already in the array b, value is pushed to array variable b.
 
-####psudocode:
+#### psudocode:
 ```
 SET a= [1,1,2,3,4,1,2,3,2,3,4]
 SET b=[]
@@ -231,9 +231,9 @@ label1: FOR (SET i =0; i< a.length;i++){
 PRINT (b)
 ```
 
-###9: Sum of the first 10 natural numbers:
+### 9: Sum of the first 10 natural numbers:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Firt declare a sum variable, then assign this value is 0.
 
@@ -243,7 +243,7 @@ step 3: when each time for loop run, sum += i will execute.
 
 step 4: Then its added value stored in sum variable.
 
-####psudocode:
+#### Psudocode:
 ```
 SET sum=0;
 FOR (SET i = 1 ; i<=10; i++)
@@ -253,9 +253,9 @@ FOR (SET i = 1 ; i<=10; i++)
 PRINT (sum)
 ```
 
-###10: Sum of the Odd number and Even number:
+### 10: Sum of the Odd number and Even number:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: First assign a value 100 in n variable.
 
@@ -267,12 +267,12 @@ step 4: If the number is even add with even variable value, otherwise add with o
 
 step 5: Finally, print the sum of odd and even value. 
 
-####psudocode:
+#### Psudocode:
 ```
 SET n = 100
 SET odd = 0
 SET even = 0
-SET i = 1; 
+SET i = 1
 WHILE (i <= n){
   IF (i % 2 == 0){
     even += i
@@ -284,9 +284,9 @@ WHILE (i <= n){
 PRINT (odd, even)
 ```
 
-###11: Merge two array:
+### 11: Merge two array:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Create a two array variable b and c.
 
@@ -294,7 +294,7 @@ step 2: Merge this two array with help of spread operator.
 
 step 3: Finally, the merged array value will print.
 
-####psudocode:
+#### Psudocode:
 ```
 SET b = [1,2,9,3,5,1,4,5]
 SET c = [11, 54, 70, 40]
@@ -303,9 +303,9 @@ SET d = [...b,...c]
 PRINT (d)
 ```
 
-###12: Remove duplicate from an array of an object:
+### 12: Remove duplicate from an array of an object:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Declare a array object with some same object elements. this array name is a.
 
@@ -319,7 +319,7 @@ step 5: Again i take the value from array I check the value is exist or not exis
 
 step 6: If the b not have the a's same value, Then only the value will be stored in b.
 
-####psudocode:
+#### Psudocode:
 ```
 SET a = [{id: 1, name: "Stephen covey" }, {id: 2, name: "Stephen covey"}, {id: 3, name:"Tolstoy"},{id:3,name: "Tolstoy"}, {id: 5, name: "James clear"}]
 SET b=[]
@@ -331,12 +331,12 @@ label1: FOR (SET i =0; i< a.length;i++){
     }
     b.push(a[i])
 }
-PRINT (b);
+PRINT (b)
 ```
 
-###13: Compare two objects:
+### 13: Compare two objects:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Create some objects with some properties;
 
@@ -348,7 +348,7 @@ step 4: compare the all properties on both objects.
 
 step 5: If the properties values are equal, it wil print true, otherwise it will print false.
 
-####Psudocode:
+#### Psudocode:
 ```
 FUNCTION objcmp(a, b) {
 
@@ -380,15 +380,15 @@ PRINT (objcmp(a, b))
 PRINT (objcmp(c, d))
 ```
 
-###14: Array.flat():
+### 14: Array.flat():
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Declare a multidimensional array.
 
 step 2: flattening the multi-dimentional array value using flat() method.
 
-####Psudocode:
+#### Psudocode:
 ```
 SET a = [1,4,2,3,[10,20,20], [100,500,700,600],[2000,1000]]
 
@@ -396,9 +396,9 @@ SET b = a.flat()
 PRINT (b)
 ```
 
-###15: Array.Reduce() method:
+### 15: Array.Reduce() method:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Through the array.reduce method check the id, how many id valus are same
 
@@ -410,7 +410,7 @@ step 4: through the reduce method, the id and that keys are taken, and check any
 
 step 5: Finally, the result will be stored in object a.
 
-####Psudocode:
+#### Psudocode:
 ```
 SET people = [{id: 1, name: "edison" }, {id: 2, name: "Annand" }, {id: 3, name: "Vasnath"},  {id: 3, name: "benni"}, {id: 1, name: "karthi" }]
 
@@ -421,9 +421,9 @@ SET a = people.reduce((key, value)=> {
 PRINT (a)
 ```
 
-###16: Printing right angle triangle pattern:
+### 16: Printing right angle triangle pattern:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Declare a n variable and create a empty string variable s.
 
@@ -439,7 +439,7 @@ step 6: When the i = 5 the outer for loop condition will be failed.
 
 step 7: Finally, Print right angle triangle pattern.
 
-####Psudocode:
+#### Psudocode:
 ```
 SET n= 5
 SET s= ""
@@ -453,9 +453,9 @@ FOR (SET i=1 ; i<=n; i++){
 PRINT (s)
 ```
 
-###17: Printing number right angle triangle pattern:
+### 17: Printing number right angle triangle pattern:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: Declare a n variable and create a empty string variable s.
 
@@ -471,7 +471,7 @@ step 6: each time the inner forloop will print the numbers, when the inner for l
 
 step 7: till the i equal to n, the outer and inner for loop will be executed.
 
-####Psudocode:
+#### Psudocode:
 ```
 SET n= 5
 SET s= ""
@@ -487,9 +487,9 @@ FOR (SET i=1 ; i<n; i++){
 PRINT (s)
 ```
 
-###18: Printing number pyramid pattern:
+### 18: Printing number pyramid pattern:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: To print pyramid pattern, first add some white spaces in the variable.
 
@@ -505,7 +505,7 @@ step 6: When the outer for loop will go to five the condition will be failed.
 
 step 7: Then the program execution will be stoped.
 
-####Psudocode:
+#### Psudocode:
 ```
 SET count = 1 
 SET n = 5
@@ -522,9 +522,9 @@ FOR (SET i=1; i< 5; i++){
 PRINT (pattern)
 ```
 
-###19: Printing diamond pattern:
+### 19: Printing diamond pattern:
 
-####Algorithm:
+#### Algorithm:
 
 step 1: declare some variable i, j, k.
 
@@ -540,7 +540,7 @@ step 6: the same operation will be execuite for reverse operation.
 
 step 7: finally, we get a diamod pattern.   
 
-####Psudocode:
+#### Psudocode:
 ```
 INIT i, j, k
 SET odd = 1
@@ -587,9 +587,9 @@ FOR (i = 0; i < 10; i++) {
 PRINT (pattern)
 ```
 
-###20: Console:
+### 20: Console:
 
-####i: Console.log:
+#### i: Console.log:
 
 console.log is used to print the output message in the web console.
 
@@ -598,12 +598,12 @@ SET a=[1,2,3,3,4,5,5]
 console.log(a)
 ```
 
-####ii: Consoe.dir:
+#### ii: Consoe.dir:
 
 The console.dir is used to view the objects of JavaScript. 
 And the console.dir function views the object in hierarchical formate.
 
-####iii: Console.count:
+#### iii: Console.count:
 
 The count() method counts the number of times console.count() is called.
 we can use this console.count() method to track how many time a particular statement is executed. 
@@ -615,7 +615,7 @@ console.count("label")
 }
 ```
 
-####iv:Console.table():
+#### iv:Console.table():
 
 The console.table() method displays tabular data as a table.
 This function takes one mandatory argument data, which must be an array or an object, and one additional optional parameter columns.
@@ -625,7 +625,7 @@ SET a=[1,2,3,3,4,5,5];
 console.table(a)
 ```
 
-####v: Console.time and console.timeEnd:
+#### v: Console.time and console.timeEnd:
 
 The console object has time() and timeEnd() methods that help with analyzing performance of pieces of your code.
 you first call console.time() by providing a string argument, then the code that you want to test, then call console.timeEnd() with the same string argument. 
@@ -642,7 +642,7 @@ FOR (SET i = 1; i <= a.length; i++) {
 }console.timeEnd()
 ```
 
-####vi: Console.group:
+#### vi: Console.group:
 
 The console.group() method creates a new inline group in the Web console log, causing any subsequent console messages to be indented by an additional level, until console.groupEnd() is called.
 
@@ -663,7 +663,7 @@ SET b = "racecar"
 console.log(b)
 ```
 
-####vii: Console.assert:
+#### vii: Console.assert:
 
 The console.assert() method writes an error message to the console if the assertion is false. 
 If the assertion is true, nothing happens. 
