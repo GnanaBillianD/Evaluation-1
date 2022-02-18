@@ -1,4 +1,7 @@
 function PrimeNumber(a) {
+    if (a === 2) {
+        console.log("prime");
+    }
     for (let i = 2; i < a; i++) {
         let b = a % i;
         if (b == 0) {
@@ -11,9 +14,7 @@ function PrimeNumber(a) {
     }
 }
 
+PrimeNumber(2);
+PrimeNumber(1);
 PrimeNumber(9);
-PrimeNumber();
-PrimeNumber(121);
-PrimeNumber(111);
-
-
+PrimeNumber(11);
