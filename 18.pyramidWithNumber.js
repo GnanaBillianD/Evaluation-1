@@ -1,27 +1,51 @@
 "use strict";
 let count = 1;
-let n = 5;
+let numberOfRows = 4;
+let space = 3;
 let pattern = "";
-for (let i = 1; i < 5; i++) {
-    for (let j = 0; j < n; j++) {
+for (let i = 0; i < numberOfRows; i++) {
+    for (let j = 0; j < space; j++) {
         pattern += ' ';
-    } n = n - 1;
-    for (let k = 0; k < i; k++) {
+    } space = space - 1;
+    for (let k = 0; k <= i; k++) {
         pattern += count + " ";
         count++;
-    } pattern += '\n';
+    }
+    pattern += '\n';
 }
 console.log(pattern);
 
-// //reverse
-// n=1;
-// for (let i = 1; i < 5; i++) {
-//     for (let j = 0; j < n; j++) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// reverse
+// space =1;
+// for (let i = 1; i < numberOfRows; i++) {
+//     for (let j = 0; j < space; j++) {
 //         pattern += ' ';
-//     } n = n + 1;
-//     for (let k = 0; k < 5-i; k++) {
-//         pattern += count + " ";
+//     } space = space + 1;
+//     for (let k = 0; k < numberOfRows - i; k++) {
+//         pattern += "*" + " ";
 //         count++;
-//     } pattern += '\n';
+//     }
+//     pattern += '\n';
 // }
 // console.log(pattern);

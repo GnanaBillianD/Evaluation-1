@@ -1,15 +1,16 @@
 "use strict";
 let i, j, k;
+let number=10
 let odd = 1;
 let space = 5;
 let pattern = "";
 
-for (i = 0; i < 9; i++) {
+for (i = 0; i <number; i++) {
 
     if (odd % 2 != 0) {
         for (j = 1; j < space; j++) {
             pattern = pattern + " ";
-        } --space;
+        } space--;
 
         for (k = 0; k < odd; k++) {
             pattern += "*";
@@ -19,16 +20,18 @@ for (i = 0; i < 9; i++) {
     }
     odd++;
 }
-// Reverse
-space = 1;
-odd = 7;
+//reverse
+console.log(odd)
+odd--;
+odd--;
+odd--;
 
-for (i = 0; i < 10; i++) {
+for (i = 0; i < number; i++) {
 
     if (odd % 2 != 0) {
-        for (j = 0; j < space; j++) {
+        for (j = 0; j <=space; j++) {
             pattern = pattern + " ";
-        } ++space;
+        } space++;
 
         for (k = 0; k < odd; k++) {
             pattern += "*";

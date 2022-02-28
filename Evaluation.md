@@ -39,9 +39,9 @@ PrimeNumber(111)
 
 step 1: First declare two variabes.
 
-step 2: Then define 1234 in variable name c and define string '1234' in variable name d.  
+step 2: Then define 1234 in variable name c and define string '1234' in variable name d. 
 
-stpe 3: Check the two variable with equality operator  
+stpe 3: Check the two variable with equality operator 
 
 stpe 4: Check the two variable with strict equality operator.
 

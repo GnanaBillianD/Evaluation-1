@@ -1,9 +1,9 @@
 "use strict";
-function objcmp(a, b) {
+function objcmp(obj1, obj2) {
 
     //copy properties into A and B
-    let A = Object.getOwnPropertyNames(a);
-    let B = Object.getOwnPropertyNames(b);
+    let A = Object.getOwnPropertyNames(obj1);//returns an array of all properties names
+    let B = Object.getOwnPropertyNames(obj2);
     // console.log(A, B)//[ 'id', 'name' ] [ 'id', 'name' ]
     // console.log(A.length)//2
     
@@ -14,7 +14,7 @@ function objcmp(a, b) {
     //compare all properties on both objects
     for (let i = 0; i < A.length; i++) {
         let propName = A[i];
-        if (a[propName] !== (b[propName]))
+        if (obj1[propName] !== (obj2[propName]))
             return false;
     }
     //objects are equal 
@@ -23,10 +23,10 @@ function objcmp(a, b) {
 
 
 //creaate objects
-let a = { id: 1, name: "edison" };
-let b = { id: 1, name: "edison" };
-let c = { id: 1, name: "edison" };
-let d = { id: 2, name: "edison" };
+let object1 = { id: 1, name: "edison" };
+let object2 = { id: 1, name: "edison" };
+let object3 = { id: 1, name: "edison" };
+let object4 = { id: 2, name: "edison" };
 
-console.log(objcmp(a, b));//true
-console.log(objcmp(c, d));//false    (id number not match)
+console.log(objcmp(object1, object2));//true
+console.log(objcmp(object3, object4));//false    (id number not match)

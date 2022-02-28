@@ -1,15 +1,15 @@
 "use strict";
-let n= 5;
-let s= "";
+let n= 4;
+let printNumberPattern= "";
 let count =1
 
-for (let i=1 ; i<n; i++){
-    for (let j=0 ; j<i; j++){
-        s += count + " ";
+for (let i=0 ; i<n; i++){
+    for (let j=0 ; j<=i; j++){
+        printNumberPattern += count + " ";
         count++;
     }
-        s += "\n";
+        printNumberPattern += "\n";
         // console.log(s)
         // s = "";
 }
-console.log(s);
+console.log(printNumberPattern);

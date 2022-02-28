@@ -1,13 +1,11 @@
 "use strict";
-let n= 5;
-let s= "";
+let rows= 6;
+let printPattern= "";
 
-for (let i=1 ; i<=n; i++){
-    for (let j=0 ; j<i; j++){
-        s += "*";
+for (let i=0 ; i< rows; i++){
+    for (let j=0 ; j<=i; j++){
+        printPattern += "*";
     }
-        s += "\n";
-//         console.log(s)
-//         s = "";
+        printPattern += "\n";//create a new line
 }
-console.log(s);
+console.log(printPattern);
